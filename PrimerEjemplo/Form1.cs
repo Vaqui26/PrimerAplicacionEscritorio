@@ -27,7 +27,7 @@ namespace PrimerEjemplo
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             string text = textNombre.Text;
-            MessageBox.Show("Total de " + text + " clicks son : " + contador);
+            MessageBox.Show(text + "hiso un total de clicks : " + contador);
         }
 
         private void Form1_Load(object sender, EventArgs e)
